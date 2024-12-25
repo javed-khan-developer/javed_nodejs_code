@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 })
 
 //Import the router files
-const personRoutes = require('./routes/PersonRoutes');
+const personRoutes = require('./routes/personRoutes');
 const menuItemRotes = require('./routes/menuRoutes');
 
 //use the routers
